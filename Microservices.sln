@@ -5,7 +5,19 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMicroservices", "HelloMicroservices\HelloMicroservices.csproj", "{F9B0CFE2-CBFF-4675-A9B3-A25AAF92FEEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{A412DA17-BC0E-4956-AA4E-BAAB4EA9B452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{A412DA17-BC0E-4956-AA4E-BAAB4EA9B452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoyaltyProgram", "LoyaltyProgram\LoyaltyProgram.csproj", "{3153E7F1-4E7B-467D-9A63-0B6F082EE2B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3AB19926-54F4-45E1-B8AB-03D6AF00009E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecialOffers", "SpecialOffers\SpecialOffers.csproj", "{CFC27BD0-7E71-4A07-8BC9-9719A820DC7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoyaltyProgramEventConsumer", "LoyaltyProgramEventConsumer\LoyaltyProgramEventConsumer.csproj", "{BDB6B7B3-5AF2-4233-B257-44A4D4297922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog", "ProductCatalog\ProductCatalog.csproj", "{9583A412-1966-4521-B1B5-A18D8E42A52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyProgramUnitTests", "LoyaltyProgramUnitTests\LoyaltyProgramUnitTests.csproj", "{57007E45-E6BD-48AA-A17F-9E178F230745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +33,30 @@ Global
 		{A412DA17-BC0E-4956-AA4E-BAAB4EA9B452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A412DA17-BC0E-4956-AA4E-BAAB4EA9B452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A412DA17-BC0E-4956-AA4E-BAAB4EA9B452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3153E7F1-4E7B-467D-9A63-0B6F082EE2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3153E7F1-4E7B-467D-9A63-0B6F082EE2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3153E7F1-4E7B-467D-9A63-0B6F082EE2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3153E7F1-4E7B-467D-9A63-0B6F082EE2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB19926-54F4-45E1-B8AB-03D6AF00009E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB19926-54F4-45E1-B8AB-03D6AF00009E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB19926-54F4-45E1-B8AB-03D6AF00009E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB19926-54F4-45E1-B8AB-03D6AF00009E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC27BD0-7E71-4A07-8BC9-9719A820DC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC27BD0-7E71-4A07-8BC9-9719A820DC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC27BD0-7E71-4A07-8BC9-9719A820DC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC27BD0-7E71-4A07-8BC9-9719A820DC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB6B7B3-5AF2-4233-B257-44A4D4297922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB6B7B3-5AF2-4233-B257-44A4D4297922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB6B7B3-5AF2-4233-B257-44A4D4297922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB6B7B3-5AF2-4233-B257-44A4D4297922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57007E45-E6BD-48AA-A17F-9E178F230745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57007E45-E6BD-48AA-A17F-9E178F230745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57007E45-E6BD-48AA-A17F-9E178F230745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57007E45-E6BD-48AA-A17F-9E178F230745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ShoppingCart.EventFeed
 {
     public interface IEventStore
     {
-        void Raise(string v, object p);
-        IEnumerable<Event> GetEvents(long firstEventSequenceNumber, long lastEventSequenceNumber);
+        Task Raise(string eventName, object content);
+        Task<IEnumerable<Event>> GetEvents(long firstEventSequenceNumber, long lastEventSequenceNumber);
     }
 }

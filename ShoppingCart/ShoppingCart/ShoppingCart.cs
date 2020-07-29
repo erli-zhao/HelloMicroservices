@@ -12,11 +12,12 @@ namespace ShoppingCart.ShoppingCart
         
         public int UserId { get; }
 
-        public IEnumerable<ShoppingCartItem> Items { get { return items; } }
+        public IEnumerable<ShoppingCartItem> Items { get { return items; } set { } }
 
-        public ShoppingCart(int userId)
+        public ShoppingCart(int userId, IEnumerable<ShoppingCartItem> item)
         {
             this.UserId = userId;
+            this.Items = item;
         }
 
         public void AddItems(IEnumerable<ShoppingCartItem> shoppingCartItems, IEventStore eventStore)
