@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoyaltyProgramEventConsumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog", "ProductCatalog\ProductCatalog.csproj", "{9583A412-1966-4521-B1B5-A18D8E42A52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyProgramUnitTests", "LoyaltyProgramUnitTests\LoyaltyProgramUnitTests.csproj", "{57007E45-E6BD-48AA-A17F-9E178F230745}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,10 +51,6 @@ Global
 		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57007E45-E6BD-48AA-A17F-9E178F230745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57007E45-E6BD-48AA-A17F-9E178F230745}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57007E45-E6BD-48AA-A17F-9E178F230745}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57007E45-E6BD-48AA-A17F-9E178F230745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
