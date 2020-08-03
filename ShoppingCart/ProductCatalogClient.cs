@@ -16,6 +16,7 @@ namespace ShoppingCart
         private static string getProductPathTemplate ="/products?productIds=[{0}]";
 
         private static ICache cache;
+        private static IHttpClientFactory _httpClientFactory;
 
         public ProductCatalogClient(ICache _cache)
         {

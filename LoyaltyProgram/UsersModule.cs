@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Nancy;
 using Nancy.ModelBinding;
+using Nancy.Security;
 
 namespace LoyaltyProgram
 {
@@ -11,7 +12,7 @@ namespace LoyaltyProgram
     {
         private static IDictionary<int, LoyaltyProgramUser> registerUsers = new Dictionary<int, LoyaltyProgramUser>();
         public UsersModule() : base("/users")
-        {
+        { 
             Post("", _ =>
             {
                 var newUser = this.Bind<LoyaltyProgramUser>(); 
@@ -59,6 +60,9 @@ namespace LoyaltyProgram
             newUser.Id = userId;
             registerUsers[userId] = newUser;
         }
+    
+    
+        
     }
 
     public class LoyaltyProgramUser

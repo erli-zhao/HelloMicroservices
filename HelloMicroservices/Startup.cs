@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using LibOwin;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Nancy.Owin;
@@ -23,7 +24,10 @@ namespace HelloMicroservices
             {
                 buildFunc(next => en =>
                 {
-                    System.Console.WriteLine("Got Request");
+                    var content = new OwinContext(en);
+                    var method = content.Request.Method;
+                    var path = content.Request.Path;
+                    System.Console.WriteLine($"Got Request:{method} {path}");
                     return next(en);
                 });
                 buildFunc.UseNancy();

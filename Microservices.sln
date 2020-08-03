@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoyaltyProgramEventConsumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog", "ProductCatalog\ProductCatalog.csproj", "{9583A412-1966-4521-B1B5-A18D8E42A52F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{9740ED19-F763-4422-AE10-B469331660BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9583A412-1966-4521-B1B5-A18D8E42A52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9740ED19-F763-4422-AE10-B469331660BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9740ED19-F763-4422-AE10-B469331660BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9740ED19-F763-4422-AE10-B469331660BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9740ED19-F763-4422-AE10-B469331660BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

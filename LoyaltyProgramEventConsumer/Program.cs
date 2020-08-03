@@ -62,7 +62,7 @@ namespace LoyaltyProgramEventConsumer
 
         private async Task<HttpResponseMessage> ReadEvents()
         {
-            var startNumber =  ReadStartNumber() ;
+            var startNumber = await ReadStartNumber() ;
             using (var httpClient = new HttpClient())
             {
                 httpClient.BaseAddress = new Uri($"http://{this.loyaltyProgramHost}");
@@ -73,9 +73,9 @@ namespace LoyaltyProgramEventConsumer
             }
         }
 
-        private   long  ReadStartNumber()
+        private async Task<long>  ReadStartNumber()
         {
-            return   10L;
+            return await  Task.FromResult(10L);
         }
 
         private async Task HandleEvents(string content)
