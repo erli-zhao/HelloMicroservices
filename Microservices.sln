@@ -17,7 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoyaltyProgramEventConsumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalog", "ProductCatalog\ProductCatalog.csproj", "{9583A412-1966-4521-B1B5-A18D8E42A52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{9740ED19-F763-4422-AE10-B469331660BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login", "Login\Login.csproj", "{9740ED19-F763-4422-AE10-B469331660BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceNET.Logging", "MicroserviceNET.Logging\MicroserviceNET.Logging.csproj", "{CBF882AC-0FC0-40CE-93F9-5E1CEFF42DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceNET.Auth", "MicroserviceNET.Auth\MicroserviceNET.Auth.csproj", "{61EB41C5-3D17-49FE-959C-207708B6D486}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceNET.Platform", "MicroserviceNET.Platform\MicroserviceNET.Platform.csproj", "{E6AD163E-E0B5-4A85-AA5E-9411BA4A70AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMicroservicePlatform", "HelloMicroservicePlatform\HelloMicroservicePlatform.csproj", "{78C2DC38-A995-4E90-B142-27FDABE7D184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{9740ED19-F763-4422-AE10-B469331660BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9740ED19-F763-4422-AE10-B469331660BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9740ED19-F763-4422-AE10-B469331660BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF882AC-0FC0-40CE-93F9-5E1CEFF42DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF882AC-0FC0-40CE-93F9-5E1CEFF42DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF882AC-0FC0-40CE-93F9-5E1CEFF42DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF882AC-0FC0-40CE-93F9-5E1CEFF42DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EB41C5-3D17-49FE-959C-207708B6D486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EB41C5-3D17-49FE-959C-207708B6D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EB41C5-3D17-49FE-959C-207708B6D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EB41C5-3D17-49FE-959C-207708B6D486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6AD163E-E0B5-4A85-AA5E-9411BA4A70AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AD163E-E0B5-4A85-AA5E-9411BA4A70AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6AD163E-E0B5-4A85-AA5E-9411BA4A70AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6AD163E-E0B5-4A85-AA5E-9411BA4A70AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C2DC38-A995-4E90-B142-27FDABE7D184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C2DC38-A995-4E90-B142-27FDABE7D184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C2DC38-A995-4E90-B142-27FDABE7D184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C2DC38-A995-4E90-B142-27FDABE7D184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
